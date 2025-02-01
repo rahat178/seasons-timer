@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Seasons timer</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="css2.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<audio autoplay="allowed" id="springAudio" loop="loop" src="https://cdn.glitch.global/ce6fe6c6-008a-48cb-9938-de625f6de553/spring.mp3?v=1681893311918"></audio>
+<audio autoplay="allowed" id="summerAudio" loop="loop" src="https://cdn.glitch.global/ce6fe6c6-008a-48cb-9938-de625f6de553/summer.mp3?v=1681893304748"></audio>
+<audio autoplay="allowed" id="autumnAudio" loop="loop" src="https://cdn.glitch.global/ce6fe6c6-008a-48cb-9938-de625f6de553/autumn.mp3?v=1681893301509"></audio>
+<audio autoplay="allowed" id="winterAudio" loop="loop" src="https://cdn.glitch.global/ce6fe6c6-008a-48cb-9938-de625f6de553/winter.mp3?v=1681893307183"></audio>
+<div class="big_container">
+<section id="springTime">
+<div class="heading_over">
+<h2>When will spring start?</h2>
+<p>hover the mouse to see</p>
+</div>
+<div class="heading">
+<button id="springButtonPlay">
+<img alt="Play button" src="375.png" width="30px"/>
+</button>
+<button id="volumeUpSpring">
+<img alt="volume up" src="1073799.png" width="30px"/>
+</button>
+<h1 class="head_spring">When will spring start?</h1>
+<button id="volumeDownSpring">
+<img alt="volume down" src="Volume-Down-icon.png" width="30px"/>
+</button>
+<button id="springButtonPause">
+<img alt="Play button" src="263129.png" width="30px"/>
+</button>
+</div>
+<div class="container">
+<div class="spring">
+<div class="block">
+<h4 class="days_spring"></h4>
+<h3>DAYS</h3>
+</div>
+</div>
+<div class="spring">
+<div class="block">
+<h4 class="hours_spring"></h4>
+<h3>HOURS</h3>
+</div>
+</div>
+<div class="spring">
+<div class="block">
+<h4 class="minutes_spring"></h4>
+<h3>MINUTES</h3>
+</div>
+</div>
+<div class="spring">
+<div class="block">
+<h4 class="seconds_spring"></h4>
+<h3>SECONDS</h3>
+</div>
+</div>
+</div>
+</section>
+<section id="summerTime">
+<div class="heading_over">
+<h2>When will summer start?</h2>
+<p>hover the mouse to see</p>
+</div>
+<div class="heading">
+<button id="summerButtonPlay">
+<img alt="Play button" src="375.png" width="30px"/>
+</button>
+<button id="volumeUpSummer">
+<img alt="volume up" src="1073799.png" width="30px"/>
+</button>
+<h1 class="head_summer">When will summer start?</h1>
+<button id="volumeDownSummer">
+<img alt="volume down" src="Volume-Down-icon.png" width="30px"/>
+</button>
+<button id="summerButtonPause">
+<img alt="Play button" src="263129.png" width="30px"/>
+</button>
+</div>
+<div class="container">
+<div class="summer">
+<div class="block">
+<h4 class="days_summer"></h4>
+<h3>DAYS</h3>
+</div>
+</div>
+<div class="summer">
+<div class="block">
+<h4 class="hours_summer"></h4>
+<h3>HOURS</h3>
+</div>
+</div>
+<div class="summer">
+<div class="block">
+<h4 class="minutes_summer"></h4>
+<h3>MINUTES</h3>
+</div>
+</div>
+<div class="summer">
+<div class="block">
+<h4 class="seconds_summer"></h4>
+<h3>SECONDS</h3>
+</div>
+</div>
+</div>
+</section>
+<section id="autumnTime">
+<div class="heading_over">
+<h2>When will autumn start?</h2>
+<p>hover the mouse to see</p>
+</div>
+<div class="heading">
+<button id="autumnButtonPlay">
+<img alt="Play button" src="375.png" width="30px"/>
+</button>
+<button id="volumeUpAutumn">
+<img alt="volume up" src="1073799.png" width="30px"/>
+</button>
+<h1 class="head_autumn">When will autumn start?</h1>
+<button id="volumeDownAutumn">
+<img alt="volume down" src="Volume-Down-icon.png" width="30px"/>
+</button>
+<button id="autumnButtonPause">
+<img alt="Play button" src="263129.png" width="30px"/>
+</button>
+</div>
+<div class="container">
+<div class="autumn">
+<div class="block">
+<h4 class="days_autumn"></h4>
+<h3>DAYS</h3>
+</div>
+</div>
+<div class="autumn">
+<div class="block">
+<h4 class="hours_autumn"></h4>
+<h3>HOURS</h3>
+</div>
+</div>
+<div class="autumn">
+<div class="block">
+<h4 class="minutes_autumn"></h4>
+<h3>MINUTES</h3>
+</div>
+</div>
+<div class="autumn">
+<div class="block">
+<h4 class="seconds_autumn"></h4>
+<h3>SECONDS</h3>
+</div>
+</div>
+</div>
+</section>
+<section id="winterTime">
+<div class="heading_over">
+<h2>When will winter start?</h2>
+<p>hover the mouse to see</p>
+</div>
+<div class="heading">
+<button id="winterButtonPlay">
+<img alt="Play button" src="375.png" width="30px"/>
+</button>
+<button id="volumeUpWinter">
+<img alt="volume up" src="1073799.png" width="30px"/>
+</button>
+<h1 class="head_winter">When will winter start?</h1>
+<button id="volumeDownWinter">
+<img alt="volume down" src="Volume-Down-icon.png" width="30px"/>
+</button>
+<button id="winterButtonPause">
+<img alt="Play button" src="263129.png" width="30px"/>
+</button>
+</div>
+<div class="container">
+<div class="winter">
+<div class="block">
+<h4 class="days_winter"></h4>
+<h3>DAYS</h3>
+</div>
+</div>
+<div class="winter">
+<div class="block">
+<h4 class="hours_winter"></h4>
+<h3>HOURS</h3>
+</div>
+</div>
+<div class="winter">
+<div class="block">
+<h4 class="minutes_winter"></h4>
+<h3>MINUTES</h3>
+</div>
+</div>
+<div class="winter">
+<div class="block">
+<h4 class="seconds_winter"></h4>
+<h3>SECONDS</h3>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
